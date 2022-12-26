@@ -24,3 +24,24 @@
 
 You'll have a ready enviroment You can check by running spark-shell in cmd.
 ![image](https://user-images.githubusercontent.com/47116254/209581244-9dba3d45-941f-4bf2-810d-798f9cff3272.png)
+
+- Installing PySpark in Ubuntu Environment
+
+=> Check whether the JAVA is already installed by entering javac -version in terminal.
+
+- Installing JDK in Ubunutu Through Terminal
+If JAVA is not available Terminal will recommend to install any JDK by mentioning different versions.
+
+=> sudo apt-get update
+=> sudo apt install openjdk-8-jdk-headless
+=> tar xvzf file.tar.gz -/path/to/yourdirectory
+
+- Adding JDK to Path
+=> You can add JDK by entering below commands:
+=> export JAVA_HOME=/yourdirectory/openjdk-8-jdk-headless
+=> export PATH=$PATH:$JAVA_HOME\bin
+Remember no spacing between variables
+OR you can edit /.bashrc in terminal 
+=> nano ~/.bashrc
+add these variables in file and save export JAVA_HOME=/yourdirectory/openjdk-8-jdk-headless
+                                     export PATH=$PATH:$JAVA_HOME\bin
