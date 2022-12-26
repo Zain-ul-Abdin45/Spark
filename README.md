@@ -12,7 +12,11 @@
 => Then %JAVA_HOME%\bin to System variables path
 
 => Download Pyspark from https://www.apache.org/dyn/closer.lua/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
+
+
 => Extract the PySpark to C Disk and then add SPARK_PATH to enviroment variables i,e in user variables.
+
+
 => Then %SPARK_HOME%\bin to System variables path
 
 You'll have a ready enviroment You can check by running spark-shell in cmd.
