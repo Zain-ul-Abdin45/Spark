@@ -7,8 +7,11 @@
 
 - Installing PySpark in Windows
 - For Installing PySpark you'll need Java Development Kit first.
+ 
 => Download updated JAVA JDK from https://www.oracle.com/java/technologies/downloads/ according to your requirements.
+
 => Extract the JDK to C Disk and then add JAVA_PATH to enviroment variables i,e in user variables.
+
 => Then %JAVA_HOME%\bin to System variables path
 
 => Download Pyspark from https://www.apache.org/dyn/closer.lua/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
