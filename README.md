@@ -6,7 +6,7 @@
 
 
 - Installing PySpark in Windows
-- For Installing PySpark you'll need Java Development Kit first.
+- Installing Java and Java SE Runtime Environment steps are very important, since PySpark is a domain-specific language written in Java.
  
 => Download updated JAVA JDK from https://www.oracle.com/java/technologies/downloads/ according to your requirements.
 
@@ -54,3 +54,6 @@ add these variables in file and save export JAVA_HOME=/yourdirectory/openjdk-8-j
                                      export PATH=$PATH:$JAVA_HOME\bin
                                      
 => gedit ~/.bashrc
+
+![image](https://user-images.githubusercontent.com/47116254/209867535-75817648-53e9-43df-b30a-46e916d2cd97.png)
+
